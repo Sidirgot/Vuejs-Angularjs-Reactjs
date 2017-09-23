@@ -1,0 +1,27 @@
+@import '../../mediaQ.sass'
+
+.hero
+  background: url('../../assets/codingOp.jpg')
+  background-size: cover
+  h1,h2
+    color: #fff
+  h2
+    margin: 1.5rem 0 2rem 0 !important
+  .title
+    +mobile
+      font-weight: bold
+    +tablet
+      font-size: 2.5rem
+    +desktop
+      font-size: 4rem
+      margin-top: 2rem
+
+.fa-cog
+  font-size: 40px
+
+#learn
+  +desktop
+    margin-bottom: 2rem
+.pd
+  +tablet
+    padding: 2em 0
